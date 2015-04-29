@@ -12,7 +12,6 @@ void main() {
 	
 	pthread_create(&thread_ping, NULL, ping, NULL);
 	pthread_create(&thread_pong, NULL, pong, NULL);
-	pthread_cond_signal(&cond);
 
 	pthread_join(thread_ping, NULL);
 	pthread_join(thread_pong, NULL);
