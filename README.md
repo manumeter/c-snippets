@@ -1,3 +1,3 @@
 # C Thread Pingpong
 
-Example in C for multithreading. To threads alternating in defined order with mutex and conditions.
+Example in C for multithreading. Two threads alternating (waiting for each other) in defined order with pthread mutex and conditions.
